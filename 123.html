@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            background-image: url(./nike.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 0px;
+            border: 1px solid;
+            margin: 0;
+        }
+
+        .bg {
+            background-size: cover;
+            background: linear-gradient(to right, rgb(23, 114, 145), rgba(170, 107, 107, 0.507));
+            margin-top: 0px;
+            padding-top: 0px;
+            height: 756px;
+        }
+
+        .bg h1 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            gap: 20px;
+            overflow: hidden;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 10px 20px;
+            transition: background 0.3s ease;
+            padding-bottom: 50px;
+        }
+
+        nav a:hover {
+            background-color: #444;
+            border-radius: 7px;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 40px;
+            margin-right: auto;
+
+        }
+
+        .container {
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            margin-right: 400px;
+            padding-left: 50px;
+            gap: 100px;
+            width: 1200px;
+        }
+
+        .nike-div1 {
+            color: rgb(177, 200, 207);
+            font-weight: bold;
+            width: 600px;
+
+        }
+
+        .nike-img {
+            height: 500px;
+            width: 600px;
+            padding-top: 0%;
+            position: relative;
+        }
+
+        .nike-p {
+            row-gap: 5px;
+            padding-bottom: 30px;
+        }
+
+        .img-1 {
+            position: absolute;
+            bottom: 1px;
+            height: 550px;
+        }
+
+        .buy-btn {
+            background-color: lightblue;
+            border-radius: 20px;
+            height: 5vh;
+            width: 120px;
+            border: none;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .buy-btn:hover {
+            transform: translate(2px, 2px);
+            background-color: rgb(130, 130, 255);
+        }
+
+        .nike-div {
+            display: flex;
+            gap: 40px;
+            height: 2px;
+            height: 120px;
+        }
+
+        .card {
+            border: 1px solid;
+            border-radius: 15px;
+            width: 250px;
+            height: 15vh;
+            background: linear-gradient(to right, rgb(114, 220, 255), white);
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+        <div class="nav-design">
+            <nav>
+                <a class="logo" href="#">Shoe<i class="fa-solid fa-shoe-prints"></i></i></a>
+                <a href="#">Home</a>
+                <a href="#">About us</a>
+                <a href="#">Shop</a>
+                <a href="#">Contact</a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+            </nav>
+
+        </div>
+
+        <div class="container">
+
+            <div class="nike-div1">
+                <h1 style="font-size: 60px; color:lightblue;">Are you reay to lead the way</h1>
+
+                <p class=" nike-p">Mauris porta lectus nulla, non dignissum dolor <br><br> solitudin et. Sed me tortor,
+                    aliqum
+                    eget <br><br>
+
+                    congue a, faucibus se est.</p>
+
+                <button class="buy-btn">Buy now ></button>
+            </div>
+
+
+            <div class="nike-img">
+                <img class="img-1" src="/nike-air.png" alt="">
+
+            </div>
+
+        </div>
+
+        <div class="nike-div">
+            <div class="card">
+                <img src="/nike-1.png" alt="">
+
+                <div>
+                    <p>Mauris Porta</p>
+                    <p>$322.99</p>
+                </div>
+
+            </div>
+            <div class="card">
+                <img src="/nike-2.png" alt="">
+                
+                <div>
+                    <p>Mauris Porta</p>
+                    <p>$322.99</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
